@@ -1,7 +1,6 @@
 spring:
   profiles:
     active: dev
-
 ---
 server:
   port: 8000
@@ -10,7 +9,6 @@ spring:
   profiles: dev
   application:
     name: spring-cloud-consumer
-
 #eureka配置
 eureka:
   client:
@@ -18,7 +16,6 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/
       
 ----
-
 server:
   port: 8001
 #spring配置
@@ -26,7 +23,6 @@ spring:
   profiles: test
   application:
     name: spring-cloud-consumer
-
 #eureka配置
 eureka:
   client:
